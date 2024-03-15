@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wp3172282.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Esto asegura que la imagen de fondo permanezca fija mientras se desplaza la página */
+}
+.Title {
+  position:relative;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: rgb(192, 164, 241);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.character {
+  width: 250px;
+  height: 350px; /* Tamaño estándar para las tarjetas */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.character-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: rgb(87, 34, 114);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.character h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.character p {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.character-content {
+  font-family: 'Star Jedi', sans-serif; /* Utilizar la fuente 'Star Jedi' o alguna similar */
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff; /* Efecto de borde */
+  letter-spacing: 2px; /* Espaciado entre letras */
+}
